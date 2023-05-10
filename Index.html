@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fe33db33af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Images/WorkingOnMyPortfolio.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Kingsley</span><br>from San Francisco CA</h1>
+        </div>
+    </div>
+ </div>   
+ <!-------------------------about----------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a newly graduated Computer Science Masters degree holder with an undergraduage background in 
+                    Global Studies, Business and Political Science. I have a unique blend of skills and experiences that 
+                    I believe make me an asset to any Software Engineer role. After working in the political arena, 
+                    I realized my true passion lies in technology and its ability to drive positive change. 
+                    This prompted the decision to pursue a Masters degree in computer science.</p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Python, Java, Javascript, C, SQL, CSS, HTML</li>
+                        <li><span>Databases</span><br>MYSQL, SQLite, AWS</li>
+                        <li><span>Tools and Frameworks</span><br>GitHub, AndriodStudio, VisualStudio, SublimeText, Pycharm, IntelliJ, WebStorm</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>BA, Global Studies, Gettysburg College</li>
+                        <li><span>2022</span><br>MS, Computer Science, Northeastern University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!----------------------Projects----------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="projects">
+                <img src="Images/webDesign.jpeg">
+                <div class="layer">
+                <h2>Web App Design</h2>
+                <br>
+                <p> Utilized HTML, CSS, MongoDB, and JavaScript as tools to create an event sign-up Form for visitors 
+                    to San Francisco CA. This made it easier for visitors to find upcoming events in their respective locations.
+                    In the long run, it would allow updates for upcoming event in the city and keep a list of events attended.</p>
+                    <a href="#"><i class="fas fa-code"></i></a>
+            </div>
+            </div>
+            <br>
+            <div class="projects">
+                <img src="Images/AndroidImagge.png">
+                <div class="layer">
+                <h2>Andriod Attendance App Design</h2>
+                <br>
+                <p> Created an attendance Tracker Application with AndriodStudio, SQLite, Gradle and espresso. This was to provide
+                     professors a tool to track student attendance daily without having to take roll calls each class.
+                     With the use of NFC tags, which was hosted through AWS cloud service, students where able to sign into their 
+                     respective classes daily and be marked present atomatically on the app. And becasue they had to phsically scan the 
+                     NFC tags, the professor knows they where present</p>
+                    <a href="#"> <i class="fas fa-crop-alt"></i></a>
+            </div>
+            </div>
+            <br>
+                <div class="projects">
+                <img src="Images/Portfolioimage.jpeg">
+                <div class="layer">
+                <h2>Portfolio Web Design</h2>
+                <br>
+                <p>Created a Personal portfolio to showcase my ability to create functional software applications. 
+                    Rather than submit a PDF copy of my resume and cover letter to be considered for available positions, 
+                    I decided to create a website that has all required information, and a downloadable link for my CV.
+                    This also allows me to showcases my skills with every appliciation.</p>
+                    <a href="#"><i class="fab fa-app-store"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Hobbies-------------------->
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-regular fa-dumbbell"></i>
+                <h2>Fitness</h2>
+                <p>Living a healthy lifestyle is very important to me. I believe in working to be the best versions of ourselves in every aspect of our lives. 
+                 To perform at my highest capability in a professional setting, I also need to be at the highest productive level both in my mental and pysical state.
+                 This inspired me to become a Personal Fitness Trainer at Equinox. Not only do I place myself in an environment that helps me accomplish this goal outside
+                my professional setting, it help me create the same physical habbit in others which in turn is furfiling to my mental state</p>
+                <a href="https://www.equinox.com">learn more</a>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-futbol"></i></p>
+                <h2>Athelete</h2>
+                <p>I come from an athletic international background. My Mother was a professional 
+                    Basketball player and father a professonal soccer play. I ended playing both sports
+                    althorugh high school in Greensboro North Carolina. Ended playing soccer Gettysburg College 
+                    in Penslvannia and then semi-professionally for Carolina Dynamo back in Greensboro NC.</p>
+                <a href="https://www.youtube.com/watch?v=KSOv6-RTiqs">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2>Volunteer</h2>
+                <p>Having spent most of my childhood in a developing country like Nigeria, I have developed a strong passion for community service. 
+                    This has inspired me to work for various Non-Profit organizations at different capacity. I had the privilage to intern at American Heart Association, providing research on
+                    on Cardiovascular Disisease in differnt regions of the United States. It was not long before I was asked to do the same for countries abroad which I considered a great privilage.
+                    This lead to another internship with PASCAR (Pan African Society of Cardiology) creating ScoreCards to better inform political leaders in various African Countries of Cardiovascular Disisease
+                    and particular casuses in their respective regions.</p>
+                <a href="https://www.heart.org/en/affiliates/california/greater-bay-area">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-------------------------Contacts----------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> nzekwek1@mail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(336)-935-4602</p>
+                <br>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kingsley.nzekwe.7"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/king_nzekwe/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kingsley-nzekwe-772471111/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/KINGSLEY CHUKWUEMEKA NZEKWE -- RESUME 2023.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------for loop to hide info of skill and educatoion when education is clicked and vice versa---------------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby0a39Vz6Idc6MgD_l0S7dth5bxQ2PDI1DdUc3kjSxAZm6HrO75O4RcF6A9Hca3nJd5cA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
